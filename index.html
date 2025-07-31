@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="个人博客 - 分享技术、生活与思考">
+    <meta name="keywords" content="博客, 技术, 生活, 思考, 个人网站">
+    <meta name="author" content="Your Name">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">我的博客</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于我</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    你好，我是 <span class="highlight">张三</span>
+                </h1>
+                <p class="hero-subtitle">
+                    全栈开发者 | 技术爱好者 | 生活记录者
+                </p>
+                <p class="hero-description">
+                    欢迎来到我的个人博客，在这里我分享技术见解、生活感悟和创意想法。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#blog" class="btn btn-primary">阅读博客</a>
+                    <a href="#about" class="btn btn-secondary">了解更多</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关于我</h2>
+                <p class="section-subtitle">了解更多关于我的背景和兴趣</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        我是一名充满热情的全栈开发者，专注于创建优雅且功能强大的网络应用程序。
+                        拥有多年的开发经验，熟练掌握现代Web技术栈。
+                    </p>
+                    <p>
+                        除了编程，我还热爱阅读、摄影和旅行。我相信技术应该为人们的生活带来便利，
+                        并致力于通过代码创造有意义的解决方案。
+                    </p>
+                    <div class="skills">
+                        <h3>技能专长</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">CSS/SCSS</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">年经验</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">项目完成</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">博客文章</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">最新博客</h2>
+                <p class="section-subtitle">分享我的技术见解和生活感悟</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年1月15日</span>
+                            <span class="blog-category">技术</span>
+                        </div>
+                        <h3 class="blog-title">现代JavaScript开发最佳实践</h3>
+                        <p class="blog-excerpt">
+                            探讨现代JavaScript开发中的最佳实践，包括ES6+特性、模块化开发和性能优化技巧。
+                        </p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年1月10日</span>
+                            <span class="blog-category">设计</span>
+                        </div>
+                        <h3 class="blog-title">响应式设计的核心原则</h3>
+                        <p class="blog-excerpt">
+                            深入了解响应式网页设计的核心原则，如何创建在所有设备上都能完美显示的用户界面。
+                        </p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年1月5日</span>
+                            <span class="blog-category">后端</span>
+                        </div>
+                        <h3 class="blog-title">Node.js性能优化指南</h3>
+                        <p class="blog-excerpt">
+                            分享Node.js应用程序性能优化的实用技巧，从内存管理到异步编程的最佳实践。
+                        </p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2023年12月28日</span>
+                            <span class="blog-category">思考</span>
+                        </div>
+                        <h3 class="blog-title">程序员的自我成长之路</h3>
+                        <p class="blog-excerpt">
+                            反思程序员职业发展的关键要素，如何在快速变化的技术环境中保持竞争力。
+                        </p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2023年12月20日</span>
+                            <span class="blog-category">生活</span>
+                        </div>
+                        <h3 class="blog-title">旅行中的摄影心得</h3>
+                        <p class="blog-excerpt">
+                            分享旅行摄影的技巧和心得，如何用镜头记录美好的瞬间和难忘的回忆。
+                        </p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">2023年12月15日</span>
+                            <span class="blog-category">阅读</span>
+                        </div>
+                        <h3 class="blog-title">2023年度好书推荐</h3>
+                        <p class="blog-excerpt">
+                            整理今年阅读的优秀书籍，涵盖技术、哲学、文学等多个领域的精彩作品。
+                        </p>
+                        <a href="#" class="blog-link">阅读更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我</h2>
+                <p class="section-subtitle">让我们保持联系，探讨有趣的想法</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>邮箱</h4>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>github.com/yourusername</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Twitter</h4>
+                            <p>@yourusername</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="您的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="您的消息" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 我的个人博客. 保留所有权利.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
